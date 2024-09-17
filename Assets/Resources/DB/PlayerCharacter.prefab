@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfc31cf210947bf438886c8d0c54c85f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _minimumHeightForDamage: -1
+  _fallParametrs: {fileID: 11400000, guid: 81e440c48ffc7a04bbe4ca05ececbba3, type: 2}
 --- !u!114 &-8452967878740149930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,8 +307,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78292b3ca68fa674eab121d9e3e7b59c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHp: 3
-  _hp: 0
+  _specificationCharacter: {fileID: 11400000, guid: 5eada28f76a600f4b928227069acf5f2,
+    type: 2}
 --- !u!1001 &1395315466465054371
 PrefabInstance:
   m_ObjectHideFlags: 0

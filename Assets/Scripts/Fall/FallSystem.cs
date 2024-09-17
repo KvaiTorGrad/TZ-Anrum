@@ -3,8 +3,8 @@ using UnityEngine;
 
 public class FallSystem : MonoBehaviour
 {
+    [SerializeField] private FallParametrs _fallParametrs;
     private float _startYPosition;
-    [SerializeField] private float _minimumHeightForDamage;
     private bool _isFalling;
     private EntityView _view;
     private CharacterController3D _characterController;
@@ -30,7 +30,7 @@ public class FallSystem : MonoBehaviour
         {
             float fallDistance = _startYPosition - transform.position.y;
 
-            if (fallDistance > _minimumHeightForDamage)
+            if (fallDistance > _fallParametrs.MinimumHeightForDamage)
                 ApplyFallDamage(fallDistance);
             _isFalling = false;
         }
