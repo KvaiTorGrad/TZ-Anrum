@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using Photon.Deterministic;
 
-[CreateAssetMenu(menuName = "Quantum/Physics/Character Controller 3D", order = Quantum.EditorDefines.AssetMenuPriorityStart + (15 * 26) + 2)]
+[CreateAssetMenu(menuName = "Quantum/Physics/Character Controller 3D", order = Quantum.EditorDefines.AssetMenuPriorityStart + (15 * 26) + 3)]
 public partial class CharacterController3DConfigAsset : AssetBase
 {
   public Quantum.CharacterController3DConfig Settings;
